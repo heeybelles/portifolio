@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Eduarda — UX/UI Designer & Estudante de Tecnologia</title>
+<meta name="description" content="Olá, eu sou a Eduarda. Estudante de tecnologia com foco em UX/UI Design e IHC." />
+<meta property="og:title" content="Eduarda — UX/UI Designer & Estudante de Tecnologia" />
+<meta property="og:description" content="Olá, eu sou a Eduarda. Estudante de tecnologia com foco em UX/UI Design e IHC." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">E</span>
+      <span>Eduarda</span>
+    </a>
+    <nav class="nav-links">
+      <a data-nav href="index.html">Início</a>
+      <a data-nav href="sobre.html">Sobre</a>
+      <a data-nav href="tecnologias.html">Tecnologias</a>
+      <a data-nav href="projetos.html">Projetos</a>
+      <a data-nav href="contato.html">Contato</a>
+    </nav>
+    <button class="menu-btn" aria-label="Menu">
+      <svg class="icon i-open" viewBox="0 0 24 24"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+      <svg class="icon i-close" viewBox="0 0 24 24" style="display:none"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+  <nav class="mobile-nav">
+    <a data-nav href="index.html">Início</a>
+    <a data-nav href="sobre.html">Sobre</a>
+    <a data-nav href="tecnologias.html">Tecnologias</a>
+    <a data-nav href="projetos.html">Projetos</a>
+    <a data-nav href="contato.html">Contato</a>
+  </nav>
+</header>
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container hero-grid">
+    <div>
+      <span class="tag">
+        <svg class="icon" viewBox="0 0 24 24" style="color:var(--primary)"><path d="M12 3v3M12 18v3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M3 12h3M18 12h3M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg>
+        UX/UI · IHC · Tecnologia
+      </span>
+      <h1 class="text-balance">Olá, eu sou a <span class="accent">Eduarda</span>.</h1>
+      <p class="lead text-balance">Sou estudante da área de tecnologia, comunicativa, organizada e sempre em busca de aprendizado. Tenho interesse em UX/UI Design, IHC e no desenvolvimento de soluções que melhorem a experiência do usuário.</p>
+      <div class="hero-cta">
+        <a href="projetos.html" class="btn btn-primary">
+          Ver projetos
+          <svg class="icon" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="contato.html" class="btn btn-outline">Entrar em contato</a>
+      </div>
+    </div>
+    <div>
+      <div class="portrait-wrap">
+        <div class="portrait-glow"></div>
+        <div class="portrait">
+          <img src="assets/eduarda-portrait.jpeg" alt="Ilustração de Eduarda" width="480" height="350" />
+        </div>
+        <div class="portrait-badge">
+          <p class="label">Foco atual</p>
+          <p class="value">UX · IHC</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container pillars">
+    <div class="pillar"><h3>Estratégia</h3><p>Pesquisa, requisitos e visão de produto.</p></div>
+    <div class="pillar"><h3>Design</h3><p>Interfaces que respeitam quem usa.</p></div>
+    <div class="pillar"><h3>Execução</h3><p>Documentação e desenvolvimento aplicado.</p></div>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container footer-row">
+    <p>© <span id="year"></span> Eduarda — Portfólio acadêmico & profissional.</p>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body></html>
